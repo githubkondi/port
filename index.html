@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Port</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-------header section--------->
+    <header>
+      <ul class="navlist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#" class="active">About</a></li>
+        <li><a href="#" class="active">Interest</a></li>
+        <li><a href="#" class="active">Skills</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!----------Home section----------->
+    <section class="home" id="home">
+      <img src="images/Sk.gif" class="sk" />
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hola!!</span>
+          <span class="two">I'm</span>
+        </div>
+        <h1>Sneha</h1>
+        <h3>Web<span>Developer</span></h3>
+        <!---<p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          nemo blanditiis veritatis rerum magnam inventore ab accusamus beatae
+          quam voluptatibus asperiores, rem numquam autem dicta optio soluta
+          enim sed expedita.
+        </p>-->
+        <div class="button">
+          <a href="#" class="btn">About me</a>
+        </div>
+      </div>
+    </section>
+    <!-----------about section--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Cap1.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Sneha, a CS graduate who attended JNTUH. I'm very passionate about web design, specializing in UI/UX design and development.
+               Currently, I am learning to develop websites for example online cake orders, more passionate about designing them.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('work')">Work</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Developing WebSites</li>
+                <li><span>App Development</span><br />Developing Apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="work">
+              <ul>
+                <li><span>Project 1</span><br />Sorting Visualization</li>
+                <li><span>Project 2</span><br />Portfolio</li>
+                <li><span>Project 3</span><br />Chatbot Websocket</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>UndeGraduation</span><br />Attend JNTUH CGPA:65.7</li>
+                <li><span>Intermediate</span><br />Narayana Jr CGPA: 90.7</li>
+                <li><span>Highschool</span><br />Dr.KKR's School CGPA: 9.2</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------Interest setion-------------->
+    <section class="Interest" id="interest">
+      <div class="main-text">
+        <h2><span>My</span>Interest</h2>
+      </div>
+      <div class="interest-content">
+        <!--1-->
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-edit-alt"></i>
+          </div>
+          <h3>Web Design</h3>
+          <p>
+            Web Design is a field related to designing websites on the Internet.
+            Without a good design, a website fails to perform well and cannot
+            produce a good impact on the user.
+          </p>
+          <div class="button">
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <!----2----->
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-edit-alt"></i>
+          </div>
+          <h3>Creative Design</h3>
+          <p>
+            Creative design is also can be called as UI/UX Design like There are
+            a number of different positions in the creative industry, like
+            graphic designer
+          </p>
+          <div class="button">
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <!----------3------->
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-edit-alt"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Web development is the work involved in developing a website for the
+            Internet (World Wide Web) or an intranet (a private network). Web
+            development can range from developing a simple single static page of
+            plain text to complex web applications, electronic businesses,
+          </p>
+          <div class="button">
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------Skills-------->
+    <div class="skill">
+      <h1>My Skills</h1>
+      <li>
+        <h3>HTML</h3>
+        <span class="bar"> <span class="html"></span> </span>
+      </li>
+      <li>
+        <h3>CSS</h3>
+        <span class="bar"> <span class="css"></span> </span>
+      </li>
+      <li>
+        <h3>JS</h3>
+        <span class="bar"> <span class="js"></span> </span>
+      </li>
+      <li>
+        <h3>Java</h3>
+        <span class="bar"> <span class="java"></span> </span>
+      </li>
+    </div>
+    <!--circular represntn-->
+    <div class="skills-wrapper">
+      <h1>Professional Skills</h1>
+      <div class="skills">
+        <div class="content">
+          <span>Communication Skills</span>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="content">
+          <span>Analytical Thinking</span>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="content">
+          <span>Time Management</span>
+        </div>
+      </div>
+    </div>
+    <!-------------Contact section---------->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact<span>Me</span></h2>
+        <p>Also can get in contact through social media or Linkedin</p>
+        <div class="list">
+          <li><a href="#">snehakondi@gmail.com</a></li>
+          <li><a href="#">SnehaCS</a></li>
+        </div>
+
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/snehakondi-8529aa29a/"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+      </div>
+
+      <div class="contact-form">
+        <form actions="">
+          <input type="name" placeholder="Your Name" reguired>
+          <input type="email" placeholder="Your email" required>
+          <textarea name="" id="" cols="15" rows="5" placeholder="Hello there!!!"required></textarea> </textarea>
+          <input type="submit" value="Send Message" class="submit" required>
+        </form>
+      </div>
+    </section>
+    <!-----------end section-------->
+    <section class="end">
+      <div class="last-text">
+        <p>Serving for cookie Bites </p>
+        <div class="top">
+          <a href="#home">
+            <i class='bx bxs-cookie'></i>
+          </a> 
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
